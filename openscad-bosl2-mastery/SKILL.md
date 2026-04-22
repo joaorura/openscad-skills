@@ -5,7 +5,7 @@ description: Use when Gemini CLI is implementing geometry using the BOSL2 librar
 
 # OpenSCAD BOSL2 Mastery
 
-> **Nota:** Este conte?do foi gerado com aux?lio de IA.
+> **Note:** This content was generated with the assistance of AI.
 
 ## Overview
 A guide to mastering the Belfry OpenSCAD Library v2 (BOSL2), focusing on intent-based positioning and advanced primitives.

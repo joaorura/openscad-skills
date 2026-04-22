@@ -5,7 +5,7 @@ description: Use when planning a new OpenSCAD model or refactoring an existing o
 
 # OpenSCAD Workflow Planning
 
-> **Nota:** Este conte?do foi gerado com aux?lio de IA.
+> **Note:** This content was generated with the assistance of AI.
 
 ## Overview
 Guidelines for selecting the right design approach for an OpenSCAD model.

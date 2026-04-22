@@ -5,7 +5,7 @@ description: Use when creating board game inserts or organizers using The Boardg
 
 # OpenSCAD Board Game Organizer (BIT)
 
-> **Nota:** Este conte?do foi gerado com aux?lio de IA.
+> **Note:** This content was generated with the assistance of AI.
 
 ## Overview
 Guidelines for using The Boardgame Insert Toolkit (BIT) for rapid, data-driven organizer design.

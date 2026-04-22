@@ -5,7 +5,7 @@ description: Use when Gemini CLI needs to structure, organize, or manage a compl
 
 # OpenSCAD Project Understanding
 
-> **Nota:** Este conte?do foi gerado com aux?lio de IA.
+> **Note:** This content was generated with the assistance of AI.
 
 ## Overview
 Guidelines for organizing OpenSCAD projects for long-term maintainability, focusing on modularity and clear parameter management.
