@@ -2,7 +2,7 @@
 
 This repository contains a collection of Agent Skills for AI coding assistants. These skills teach agents how to properly structure, plan, and execute modern OpenSCAD modeling tasks using the intent-based BOSL2 library and the data-driven Boardgame Insert Toolkit (BIT).
 
-> Este reposit?rio foi gerado com aux?lio de IA.
+> This repository was generated with the assistance of AI.
 
 ## Included Skills
 
