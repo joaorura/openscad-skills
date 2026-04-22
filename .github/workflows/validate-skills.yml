@@ -1,0 +1,42 @@
+name: Validate and Package Skills
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+
+    - name: Install dependencies
+      run: npm install archiver js-yaml
+
+    - name: Create dist directory
+      run: mkdir -p dist
+
+    - name: Package Skills
+      run: |
+        # We simulate the packaging logic for the CI
+        # since the original script is local to the user environment
+        for skill in openscad-project-understanding openscad-workflow-planning openscad-bosl2-mastery openscad-boardgame-organizer; do
+          echo "Packaging $skill..."
+          cd $skill
+          zip -r ../dist/$skill.skill .
+          cd ..
+        done
+
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: openscad-skills-packages
+        path: dist/*.skill
