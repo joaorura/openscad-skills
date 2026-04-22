@@ -16,21 +16,21 @@ This repository contains a collection of Agent Skills for AI coding assistants. 
 Agent skills are designed to be loaded by your CLI agent.
 
 ### Claude Code
-1. Clone this repository or download the .skill files from the \dist/\ folder.
+1. Clone this repository or download the .skill files from the dist/ folder.
 2. In your terminal, run the Claude Code skills command:
    ```bash
    claude skills install path/to/skill-name.skill
    ```
 
 ### OpenClaude
-1. Download the \.skill\ files from the \dist/\ folder.
+1. Download the .skill files from the dist/ folder.
 2. Install them using the OpenClaude CLI:
    ```bash
    openclaude skills install path/to/skill-name.skill
    ```
 
 ### Gemini CLI
-1. Download the \.skill\ files from the \dist/\ folder.
+1. Download the .skill files from the dist/ folder.
 2. Install them either locally (workspace scope) or globally (user scope):
    ```bash
    gemini skills install path/to/skill-name.skill --scope workspace
@@ -40,7 +40,7 @@ Agent skills are designed to be loaded by your CLI agent.
 3. In an interactive session, type `/skills reload`.
 
 ### Copilot CLI
-1. Copilot CLI typically auto-discovers skills from installed plugins or specific configuration paths. Refer to your Copilot CLI documentation for mapping standard \.skill\ packages or folder structures.
+1. Copilot CLI typically auto-discovers skills from installed plugins or specific configuration paths. Refer to your Copilot CLI documentation for mapping standard .skill packages or folder structures.
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a PR with improvements.
