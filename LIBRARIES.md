@@ -1,47 +1,47 @@
-# Instala??o de Bibliotecas OpenSCAD
+# OpenSCAD Library Installation
 
-Este guia explica como instalar as bibliotecas necess?rias para utilizar as skills contidas neste reposit?rio.
+This guide explains how to install the libraries required to use the skills in this repository.
 
-> **Nota:** Este documento foi gerado com aux?lio de IA.
+> **Note:** This document was generated with the assistance of AI.
 
-## Bibliotecas Necess?rias
+## Required Libraries
 
-1.  **BOSL2 (The Belfry OpenSCAD Library v2)**: Essencial para modelagem baseada em inten??o e anexos.
-2.  **The Boardgame Insert Toolkit (BIT)**: Necess?rio para a cria??o de organizadores de jogos de tabuleiro.
+1.  **BOSL2 (The Belfry OpenSCAD Library v2)**: Essential for intent-based modeling and attachments.
+2.  **The Boardgame Insert Toolkit (BIT)**: Necessary for creating board game organizers.
 
-## Passo a Passo para Instala??o
+## Installation Steps
 
-### 1. Localize sua pasta de bibliotecas do OpenSCAD
+### 1. Locate your OpenSCAD libraries folder
 
-Abra o OpenSCAD e v? em **File -> Show Library Folder...**. Isso abrir? o explorador de arquivos na pasta correta para o seu sistema operacional.
+Open OpenSCAD and go to **File -> Show Library Folder...**. This will open the file explorer in the correct folder for your operating system.
 
-- **Windows:** Geralmente `Documents\OpenSCAD\libraries`
-- **macOS/Linux:** Geralmente `~/OpenSCAD/libraries`
+- **Windows:** Usually `Documents\OpenSCAD\libraries`
+- **macOS/Linux:** Usually `~/OpenSCAD/libraries`
 
-### 2. Instale a BOSL2
+### 2. Install BOSL2
 
-1.  Acesse o reposit?rio: [https://github.com/BelfrySCAD/BOSL2/](https://github.com/BelfrySCAD/BOSL2/)
-2.  Fa?a o download do ZIP ou clone o reposit?rio diretamente na sua pasta `libraries`:
+1.  Visit the repository: [https://github.com/BelfrySCAD/BOSL2/](https://github.com/BelfrySCAD/BOSL2/)
+2.  Download the ZIP or clone the repository directly into your `libraries` folder:
     ```bash
-    cd [SUA_PASTA_DE_LIBRARIES]
+    cd [YOUR_LIBRARIES_FOLDER]
     git clone https://github.com/BelfrySCAD/BOSL2.git
     ```
-3.  Certifique-se de que a pasta se chama exatamente `BOSL2`.
+3.  Ensure the folder is named exactly `BOSL2`.
 
-### 3. Instale o Boardgame Insert Toolkit (BIT)
+### 3. Install The Boardgame Insert Toolkit (BIT)
 
-1.  Acesse o reposit?rio: [https://github.com/dppdppd/The-Boardgame-Insert-Toolkit](https://github.com/dppdppd/The-Boardgame-Insert-Toolkit)
-2.  Baixe os arquivos e coloque a pasta do toolkit dentro da sua pasta `libraries`.
-3.  Renomeie a pasta para `BoardgameInsertToolkit` para garantir compatibilidade com os caminhos padr?o.
+1.  Visit the repository: [https://github.com/dppdppd/The-Boardgame-Insert-Toolkit](https://github.com/dppdppd/The-Boardgame-Insert-Toolkit)
+2.  Download the files and place the toolkit folder inside your `libraries` folder.
+3.  Rename the folder to `BoardgameInsertToolkit` to ensure compatibility with standard paths.
 
-## Verifica??o
+## Verification
 
-Ap?s instalar, voc? pode verificar se o OpenSCAD reconhece as bibliotecas criando um novo arquivo e testando os seguintes comandos:
+After installing, you can verify that OpenSCAD recognizes the libraries by creating a new file and testing the following commands:
 
 ```openscad
 include <BOSL2/std.scad>
 include <BoardgameInsertToolkit/BoardgameInsertToolkit.scad>
 
-// Se n?o houver erros de "File not found", a instala??o foi conclu?da com sucesso!
-cuboid([10,10,10]); // Teste BOSL2
+// If no "File not found" errors occur, the installation was successful!
+cuboid([10,10,10]); // Test BOSL2
 ```
