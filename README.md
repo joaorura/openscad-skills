@@ -18,26 +18,26 @@ Agent skills are designed to be loaded by your CLI agent.
 ### Claude Code
 1. Clone this repository or download the .skill files from the \dist/\ folder.
 2. In your terminal, run the Claude Code skills command:
-   \\\ash
+   ```bash
    claude skills install path/to/skill-name.skill
-   \\\
+   ```
 
 ### OpenClaude
 1. Download the \.skill\ files from the \dist/\ folder.
 2. Install them using the OpenClaude CLI:
-   \\\ash
+   ```bash
    openclaude skills install path/to/skill-name.skill
-   \\\
+   ```
 
 ### Gemini CLI
 1. Download the \.skill\ files from the \dist/\ folder.
 2. Install them either locally (workspace scope) or globally (user scope):
-   \\\ash
+   ```bash
    gemini skills install path/to/skill-name.skill --scope workspace
    # OR
    gemini skills install path/to/skill-name.skill --scope user
-   \\\
-3. In an interactive session, type \/skills reload\.
+   ```
+3. In an interactive session, type `/skills reload`.
 
 ### Copilot CLI
 1. Copilot CLI typically auto-discovers skills from installed plugins or specific configuration paths. Refer to your Copilot CLI documentation for mapping standard \.skill\ packages or folder structures.
